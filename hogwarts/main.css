@@ -11,3 +11,9 @@ ul {
 .secret {
     opacity: 0.5;
 }
+table, th, td {
+    border: 1px solid grey;
+}
+table {
+    margin: auto;
+}
