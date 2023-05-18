@@ -20,9 +20,9 @@ $(() => {
     const $butterBeer = $("<li>").text("Butter Beer");
     const $invCloak = $("<li>").text("Invisibility Cloak");
     const $magicMap = $("<li>").text("Magic Map");
-    const $timeTurner = $("<li>").text("Invisibility Cloak");
+    const $timeTurner = $("<li>").text("Time Turner");
     const $leash = $("<li>").text("Leash").addClass('axolotl');
-    const $beans = $("<li>").text("Bertie Bott's Every Flavor [Jelly] Beans");
+    const $beans = $("<li>").text("Bertie Bott's Every Flavor [Jelly] Beans").addClass('beans');
     
     //// was getting errors if I tried to do addClass on the text line
     $invCloak.addClass('secret')
@@ -95,4 +95,9 @@ $(() => {
     $('.secret').show('slow')
     $leash.addClass('cabbage')
     $leash.removeClass('cabbage')
+
+    // Year 7
+    $time.text('Spring 2018')
+    $invCloak.before($butterBeer)
+    $ul.attr('storage', 'chest')
 });

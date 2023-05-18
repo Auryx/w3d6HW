@@ -1,9 +1,22 @@
 body {
-    background-color: #F8F7FF;
+    background-color: rgb(204, 203, 211);
     text-align: center;
-}/*or any color of your choosing*/
+    display: flex;
+    justify-content: center;
+}
 ul {
     list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+}
+li {
+    /*Centering the list drove me absolutely insane until I realized the hidden ul dots*/
+    text-align: center;
+    margin-right: 40px;
+}
+.beans {
+    color:coral;
 }
 .axolotl {
     font-family: fantasy;
@@ -19,4 +32,15 @@ table {
 }
 .cabbage {
     color: chartreuse;
+}
+h3 {
+    color:blue
+}
+h4.axolotl{
+    background-image: url("https://i.imgur.com/kub8SCD.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    margin: 30px
+    
 }
