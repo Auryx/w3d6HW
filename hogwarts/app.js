@@ -89,4 +89,10 @@ $(() => {
     $pet.remove()
     $('#container').append($pet)
     $house.after($pet)
+
+    // Year 6
+    $('.secret').hide('slow').delay(200);
+    $('.secret').show('slow')
+    $leash.addClass('cabbage')
+    $leash.removeClass('cabbage')
 });
