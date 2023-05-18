@@ -76,4 +76,17 @@ $(() => {
     $table.append($thead, $trMon, $trTue, $trWed, $trThu, $trFri)
     const $time = $('<h5>').text('Spring 2017')
     $('#container').append($time, $table)
+
+    // Year 5
+    $wand.remove()
+    $butterBeer.remove() // Man, class was HARD
+    const $newWand = $('<h4>').text('Holly Wand with Dragon Heartstring Core')
+    $('#container').append($newWand)
+    $pet.after($newWand)
+    $newWand.css('color', 'indigo')
+    $pet.remove()
+    $ul.append($pet)
+    $pet.remove()
+    $('#container').append($pet)
+    $house.after($pet)
 });
