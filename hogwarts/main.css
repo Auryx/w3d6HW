@@ -2,6 +2,12 @@ body {
     background-color: #F8F7FF;
     text-align: center;
 }/*or any color of your choosing*/
+ul {
+    list-style-type: none;
+}
 .axolotl {
     font-family: fantasy;
+}
+.secret {
+    opacity: 0.5;
 }
