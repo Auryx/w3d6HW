@@ -1,0 +1,32 @@
+* {
+    border: 5px black
+}
+body{
+    background-color: whitesmoke;
+}
+.navBar {
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    background-color:lightblue;
+    width: 80%;
+    margin: 0 auto;
+}
+.navLink {
+    text-align: center;
+    display: inline;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+.banner img {
+    object-fit: cover;
+    width: 90%;
+}
