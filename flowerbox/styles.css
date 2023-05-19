@@ -10,23 +10,40 @@ body{
     list-style-type: none;
     background-color:lightblue;
     width: 80%;
+    height: 20px;
     margin: 0 auto;
 }
 .navLink {
     text-align: center;
     display: inline;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 7%;
+    margin-left: 7%;
 }
 .banner {
+    background-image: url("./banner.png");
+    background-repeat: no-repeat;
+    background-size: auto;
     display: flex;
+    flex-flow: column;
+    align-items: end;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
     width: 80%;
+    height: 1000px;
     margin: 0 auto;
 }
-.banner img {
-    object-fit: cover;
-    width: 90%;
+.bannerh1, .bannerh2 {
+    margin-right: 2%;
 }
+.bannerh1 {
+    color: #92b2ba;
+    font-size: 700%;
+    margin-bottom: 0px;
+}
+.bannerh2 {
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f0a8bb;
+}
+
