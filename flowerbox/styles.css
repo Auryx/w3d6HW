@@ -46,4 +46,18 @@ body{
     padding-right: 10px;
     color: #f0a8bb;
 }
-
+.picRow1 {
+    width: 22%;
+    height: 1000px
+}
+.pic {
+float: left;
+    max-width: 100%;
+    max-height: 100%;
+  padding: 5px;
+}
+.picRow1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
