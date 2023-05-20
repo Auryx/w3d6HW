@@ -39,10 +39,6 @@ body{
     top: 220px;
     right: 100%;
 }
-.picRow1 {
-    width: 22%;
-    height: 1000px
-}
 .fit-image {
     width: 100%;
     height: 100%;
@@ -58,7 +54,7 @@ body{
 }
 .card {
     width: 30%;
-    height: 270px;
+    height: 300px;
     background-color: #eeeeee;
     margin: 30px 0px;
 }
@@ -89,7 +85,17 @@ body{
     width: 80%;
     height: 270px
 }
+.bottonNav {
+    display: flex;
+    flex-direction: column;
+}
+.bottom .logo{
+    display: inline-block;
+    width: 33.33%; 
+    vertical-align: top;
+}
 .bottom .logo .logoimg{
+    position: relative;
     height: 135px;
     width: 135px;
 }
