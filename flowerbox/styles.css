@@ -16,38 +16,28 @@ body{
     margin-right: 5%;
     margin-left: 5%;
 }
-/* .banner {
-    background-image: url("./banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-flow: column;
-    align-items: end;
-    justify-content: center;
-    width: 80%;
-    height: 1000px;
-    margin: 0 auto;
-}
-.bannerh1, .bannerh2 {
-    margin-right: 2%;
-}
-.bannerh1 {
-    color: #92b2ba;
-    font-size: 700%;
-    margin-bottom: 0px;
-}
-.bannerh2 {
-    background-color: whitesmoke;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #f0a8bb;
-} */
 .hero {
     width: 80%;
     height: 400px;
-    background-image: url("./banner\ -\ Copy.png.png");
+    position: fixed;
+    /* Image has completely refused to load now, no matter what I try */
+    /* As a result, the entire .hero box has committed the perish, APPARENTLY.  */
+    /* I need help */
+    background-image: url("unnamed.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .one{
+    /* In theory, this should be in the right spot. */
+    position: relative;
+    top: 200px;
+    right: 100%;
+}
+.hero .two{
+    /* In theory, this should be in the right spot. */
+    position: relative;
+    top: 220px;
+    right: 100%;
 }
 .picRow1 {
     width: 22%;
@@ -68,7 +58,38 @@ body{
 }
 .card {
     width: 30%;
-    height: 800px;
+    height: 270px;
     background-color: #eeeeee;
     margin: 30px 0px;
+}
+.cards .card .name{
+    position: relative;
+    bottom: 22px;
+}
+.cards .card .cost {
+    position: relative;
+    left: 170px;
+    bottom: 54px;
+}
+.cards .card .descriptor {
+    position: relative;
+    display: inline;
+    font-size: 10px;
+    text-align: left;
+    right: 40px;
+    bottom: 70px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px;
+    flex-wrap: wrap;
+    background-color: #eeeeee;
+    width: 80%;
+    height: 270px
+}
+.bottom .logo .logoimg{
+    height: 135px;
+    width: 135px;
 }
